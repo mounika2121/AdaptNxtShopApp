@@ -1,0 +1,38 @@
+.nav-container {
+  width: 230px;
+  height: 90vh;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-ul {
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.side-icon-li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.side-icons {
+  margin-right: 10px;
+}
+
+.selected-side-icon-li {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgb(223, 245, 248);
+  padding-left: 20px;
+  border-right: 4px solid rgb(3, 168, 190);
+}
+
+.selected-orders {
+  color: rgb(2, 164, 185);
+}

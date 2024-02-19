@@ -1,0 +1,17 @@
+.header {
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-icons {
+  margin-right: 15px;
+}
+
+.nav-ham-icons {
+  margin-left: 80px;
+}

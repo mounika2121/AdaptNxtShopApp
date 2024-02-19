@@ -1,0 +1,91 @@
+.orders-btn-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.orders-container {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.orders-btn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  color: rgb(2, 164, 185);
+  margin-right: 15px;
+}
+
+.buttons-container {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+}
+
+.list-of-buttons {
+  background-color: #f2f2f2;
+  border: none;
+  margin-right: 25px;
+  padding: 10px;
+}
+
+.selected-list-of-buttons {
+  background-color: #f2f2f2;
+  border: none;
+  margin-right: 25px;
+  padding: 10px;
+  border-bottom: 3px solid rgb(2, 164, 185);
+}
+
+.list-of-orders-container {
+  background-color: white;
+  margin: 5px;
+  padding: 20px;
+}
+
+.order-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.order-input {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f2f2f2;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+
+.Input-orders-btn {
+  background-color: white;
+  border: none;
+}
+
+.not-selected {
+  background-color: #f2f2f2;
+}
+
+.refresh {
+  background-color: rgb(2, 164, 185);
+}
